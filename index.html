@@ -31,6 +31,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+
 </head>
 
 <body id="page-top" class="index">
@@ -72,25 +74,25 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="" alt="">
+                <div class="col-md-12">
                     <div class="intro-text">
-                        <span class="name">Steve Rybka</span>
-                        <hr class="star-light">
-                        <span class="skills">Web Developer - Problem Solver - User Experience Designer</span>
+                        <span class="name" id="name">Steve Rybka</span>
+                      </div>
+                    </div>
+
+                        <p id="skills">Web Developer - Problem Solver - User Experience Designer</p>
+
                     </div>
                 </div>
-            </div>
-        </div>
+
     </header>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+            <div class="row" id="porthead">
+                <div class="col-lg-12">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
@@ -101,7 +103,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/threeanchors.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -111,7 +113,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/threeartists.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -121,7 +123,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/threejesse.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -131,7 +133,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/ticlogo.jpg" class="img-responsive" alt="">
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -164,8 +166,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
-                    </menu></h2>
-                    <hr class="star-light">
+                    <br/>
                 </div>
             </div>
             <div class="row">
@@ -246,8 +247,8 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
+                        <p>Highland Square
+                            <br>Akron, OH 44302</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
@@ -270,12 +271,13 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h3>Don't Hessitate</h3>
+<p>Get ahold of me and let's get started on your next project!
                     </div>
                 </div>
             </div>
         </div>
+        <!--
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -284,7 +286,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
@@ -517,6 +519,14 @@
             </div>
         </div>
     </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+<script type="text/javascript">
+  $("#name").fitText(.68);
+  $("#skills").fitText(4);
+</script>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

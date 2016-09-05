@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #FF5E3E;
+  color: #A5D6A7;
   outline: none;
 }
 h1,
@@ -69,8 +69,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background-color: #2C8182;
-  background-image: linear-gradient(120deg, #00CCCC, #2C8182);
+  background-color: #4DB6AC;
+/*  background-image: linear-gradient(120deg, #00CCCC, #2C8182); */
   color: white;
 }
 header .container {
@@ -85,11 +85,9 @@ header .intro-text .name {
   display: block;
   font-family: 'Yellowtail', cursive;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 7em;
+  font-weight: 900;
 }
 header .intro-text .skills {
-  font-size: 1.25em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -98,10 +96,8 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 8.75em;
   }
   header .intro-text .skills {
-    font-size: 1.75em;
   }
 }
 .navbar-custom {
@@ -130,7 +126,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #FF5E3E;
+  color: #A5D6A7;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -139,13 +135,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #FF5E3E;
+  background: #A5D6A7;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #FF5E3E;
+  background: #A5D6A7;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -155,9 +151,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #FF5E3E;
+  background-color: #A5D6A7;
   color: white;
-  border-color: #FF5E3E;
+  border-color: #A5D6A7;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -187,7 +183,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #2C8182;
+  background: #006064;
   color: white;
 }
 @media (max-width: 767px) {
@@ -198,6 +194,14 @@ section.success {
     padding-top: 75px;
   }
 }
+
+#porthead {
+  padding:5vh 0 5vh 0;
+  margin-bottom: 45px;
+  background-color: #E57373;
+  color: white;
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -290,7 +294,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #FF5E3E;
+  color: #A5D6A7;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -324,7 +328,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #FF5E3E;
+  color: #A5D6A7;
   background: white;
   border: solid 2px white;
 }
@@ -372,8 +376,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #FF5E3E;
-  border-color: #FF5E3E;
+  background-color: #A5D6A7;
+  border-color: #A5D6A7;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -405,11 +409,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #FF5E3E;
-  border-color: #FF5E3E;
+  background-color: #A5D6A7;
+  border-color: #A5D6A7;
 }
 .btn-success .badge {
-  color: #FF5E3E;
+  color: #A5D6A7;
   background-color: white;
 }
 .btn-social {
