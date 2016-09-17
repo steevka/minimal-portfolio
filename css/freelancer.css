@@ -467,11 +467,18 @@ fieldset[disabled] .btn-success.active {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  color: #006064;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
+  color: #E57373;
 }
+
+.portfolio-modal .modal-content .lg {
+  color: #A5D6A7;
+}
+
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
